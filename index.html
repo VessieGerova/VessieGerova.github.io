@@ -25,6 +25,81 @@
       
       <!-- making it friendly to different devices (pc,phone)-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style type = "text/css">
+         h1 {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+           h2 {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         
+      </style>
 </head>
 
 <body>
@@ -38,7 +113,7 @@
                                 <h1 class="tm-site-title">My Intro</h1>
                                 <p class="tm-site-subtitle"></p>
                             </header>
-                            <p>Hello! My name is Veselina Gerova and I am a second year Computer Science student at Eindhoven University of Technology who is passionate about practical applications of programming, web development and graphics design.</p>
+                            <p>Hello! My name is Veselina Gerova and I am a second year Computer Science student at Eindhoven University of Technologies who is passionate about variaties of different topics like new technologies, cuisine, culture from around the world.</p>
                             <p class="text-center mt-4 mb-0">
                                 <a data-scroll href="#tm-section-2" class="btn tm-btn-secondary">Continue...</a>
                             </p>
@@ -85,7 +160,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 tm-flex-center-v tm-section-left">
-                        <form action="https://formspree.io/veselina.gerova0402@gmail.com"  method="POST">
+                        <form action="https://formspree.io/veselina.gerova0402@gmail.com" class="tm-contact-form" method="POST">
                             <div class="form-group mb-4">
                                 <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
                             </div>
@@ -98,7 +173,7 @@
                             <div class="form-group mb-0 text-right">
                                 <button type="submit" class="btn tm-btn-primary tm-send-btn">Send</button>
                             </div>
-				</form>
+                        </form>
                     </div>
                     <div class="col-xl-8 col-lg-8 tm-circle-img-container tm-contact-right">
                         <img src="img/img-02.jpg" alt="Image" class="rounded-circle tm-circle-img">
